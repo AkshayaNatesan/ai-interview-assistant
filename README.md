@@ -1,14 +1,39 @@
-# AI Interview Assistant (Completed Demo)
+# AI Interview Assistant
 
-This repo is a deploy-ready demo of the AI Interview Assistant with the following features implemented:
+An interactive web app to simulate technical interviews for Fullstack developers (React & Node.js), powered by AI. Candidates can upload resumes, take quizzes, and view a summary of their performance, while interviewers can track and manage candidate progress in real time.
 
-- Resume upload (PDF/DOCX) and client-side parsing (extracts Name, Email, Phone heuristically)
-- Missing fields prompting in the Interviewee chat before starting
-- Timed interview flow: 6 questions (2 Easy, 2 Medium, 2 Hard) with timers (20s / 60s / 120s)
-- Auto-submit when timer runs out; per-question scoring (mocked); final summary generation (mocked)
-- Interviewer dashboard with search, sort, and candidate detail view showing answers and scores
-- Persistence using redux-persist (localStorage); Welcome Back modal for unfinished sessions
-- Mock AI service included; example serverless OpenAI function provided for production integration
+---
+
+## Features
+
+### Candidate
+- Upload resume (PDF/DOCX) and auto-extract name, email, and phone.
+- Take a 6-question Fullstack quiz with timed questions.
+- See real-time progress and a summary with correct/wrong answers in a pie chart.
+- Download PDF summary of the quiz.
+
+### Interviewer
+- View all candidates with name, email, phone, score, and status.
+- Search and filter candidates.
+- Delete candidates if needed.
+
+---
+
+## Tech Stack
+- **Frontend:** React, Ant Design, Recharts
+- **State Management:** Redux
+- **PDF Handling:** jsPDF
+- **Resume Parsing:** pdfjs-dist, mammoth
+- **Backend (optional):** Node.js/Express (if extended for persistent storage)
+
+---
+
+## Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
 
 ## How to run locally
 1. `npm install`
@@ -17,11 +42,5 @@ This repo is a deploy-ready demo of the AI Interview Assistant with the followin
 
 ## Deploying
 - Push to GitHub and connect to Vercel (recommended). For server-side OpenAI usage, deploy `api/openai.example.js` as a serverless function and set `OPENAI_API_KEY` in environment variables.
-
-## Notes & Next steps you can ask me to do now
-- Replace mock AI with OpenAI calls and tune prompts/rubrics.
-- Add export-to-PDF for candidate summaries.
-- Add admin auth for interviewer tab.
-- Polish UI (animations, better mobile responsiveness).
 
 Good luck — this should meet the assignment requirements for a demo-ready submission.
