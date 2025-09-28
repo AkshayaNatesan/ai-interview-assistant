@@ -43,4 +43,3 @@ cd <repo-name>
 ## Deploying
 - Push to GitHub and connect to Vercel (recommended). For server-side OpenAI usage, deploy `api/openai.example.js` as a serverless function and set `OPENAI_API_KEY` in environment variables.
 
-Good luck — this should meet the assignment requirements for a demo-ready submission.
