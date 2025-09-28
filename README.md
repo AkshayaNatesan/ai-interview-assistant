@@ -1,4 +1,4 @@
-# AI Interview Assistant
+# AI Interview Assistant (CRISP)
 
 An interactive web app to simulate technical interviews for Fullstack developers (React & Node.js), powered by AI. Candidates can upload resumes, take quizzes, and view a summary of their performance, while interviewers can track and manage candidate progress in real time.
 
