@@ -26,7 +26,13 @@ An interactive web app to simulate technical interviews for Fullstack developers
 - **Resume Parsing:** pdfjs-dist, mammoth
 - **Backend (optional):** Node.js/Express (if extended for persistent storage)
 
+
+
+Working Link:
+
+https://68da6693a331b3af90ca7046--stately-torrone-0d206c.netlify.app/
 ---
+
 
 ## Setup
 
@@ -42,4 +48,7 @@ cd <repo-name>
 
 ## Deploying
 - Push to GitHub and connect to Vercel (recommended). For server-side OpenAI usage, deploy `api/openai.example.js` as a serverless function and set `OPENAI_API_KEY` in environment variables.
+
+
+
 
