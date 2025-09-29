@@ -26,6 +26,9 @@ An interactive web app to simulate technical interviews for Fullstack developers
 - **Resume Parsing:** pdfjs-dist, mammoth
 - **Backend (optional):** Node.js/Express (if extended for persistent storage)
 
+Logo:
+
+![Alt text](assets/Screenshot_2025-09-28_194450-removebg-preview.png)
 
 
 Working Link:
