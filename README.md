@@ -28,7 +28,7 @@ An interactive web app to simulate technical interviews for Fullstack developers
 
 Logo:
 
-![Alt text](assets/Screenshot_2025-09-28_194450-removebg-preview.png)
+![Alt text](Logos.png)
 
 
 Working Link:
